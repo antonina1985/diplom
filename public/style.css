@@ -6,4 +6,235 @@ body {
   flex-direction: column;
 }
 
+header {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
 
+nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.Kvadrat {
+  background-color: rgb(72, 207, 75);
+  width: 740px;
+  height: 300px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  width: 2cm;
+  height: 2cm;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+.textlogo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #000;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+.purplekvadrat {
+  background-color: rgb(150, 0, 196);
+  width: 740px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.purpletext {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #b5b5b5;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+.seryeKvadrat1 {
+  background-color: rgb(255, 255, 255);
+  width: 740px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #bababa;
+}
+
+.seryetext1 {
+  position: absolute;
+  top: 91.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #777777;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+.seryeKvadrat2 {
+  background-color: rgb(255, 255, 255);
+  width: 740px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #bababa;
+}
+
+.seryetext2 {
+  position: absolute;
+  top: 101.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #777777;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+.seryeKvadrat3 {
+  background-color: rgb(255, 255, 255);
+  width: 740px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 111.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #bababa;
+}
+
+.seryeKvadrat2 {
+  background-color: rgb(255, 255, 255);
+  width: 740px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #bababa;
+}
+
+.seryetext {
+  position: absolute;
+  top: 101.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #777777;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+.seryeKvadrat3 {
+  background-color: rgb(255, 255, 255);
+  width: 740px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 113%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #bababa;
+}
+
+.seryetext3 {
+  position: absolute;
+  top: 112.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #777777;
+}
+
+.object {
+  position: relative;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
