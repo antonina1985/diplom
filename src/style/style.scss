@@ -7,6 +7,19 @@ body {
 }
 
 
+.wrapper {
+  width: 1110px;
+}
+
+
+
+
+
+
+
+
+
+
 header {
   background-color: #fff; 
   height: 80px; 
@@ -36,10 +49,10 @@ a:hover {
   border-bottom: 2px solid #000;
 }
 .Kvadrat {
-  background-color: rgb(72, 207, 75);
-  width: 740px;
+  background-color: #00CA69;
+  width: 100%;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +65,7 @@ a:hover {
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -68,7 +81,7 @@ a:hover {
 
     .text {
       position: absolute;
-      top: 50%; 
+      top: 40%; 
       left: 50%; 
       transform: translate(-50%, -50%); 
       z-index: 1; 
@@ -101,7 +114,7 @@ a:hover {
 
     .purplekvadrat {
       background-color: rgb(150, 0, 196);
-      width: 740px;
+      width: 100%;
       height: 50px;
       border-radius: 20px;
       position: absolute;
@@ -126,7 +139,7 @@ a:hover {
 
     .seryeKvadrat1 {
       background-color: rgb(255, 255, 255);
-      width: 740px;
+      width: 100%;
       height: 50px;
       border-radius: 20px;
       position: absolute;
@@ -152,7 +165,7 @@ a:hover {
 
     .seryeKvadrat2 {
       background-color: rgb(255, 255, 255);
-      width: 740px;
+      width: 100%;
       height: 50px;
       border-radius: 20px;
       position: absolute;
@@ -178,7 +191,7 @@ a:hover {
 
     .seryeKvadrat3 {
       background-color: rgb(255, 255, 255);
-      width: 740px;
+      width: 100%;
       height: 50px;
       border-radius: 20px;
       position: absolute;
@@ -189,7 +202,7 @@ a:hover {
     }
     .seryeKvadrat2 {
       background-color: rgb(255, 255, 255);
-      width: 740px;
+      width: 100%;
       height: 50px;
       border-radius: 20px;
       position: absolute;
@@ -215,7 +228,7 @@ a:hover {
 
     .seryeKvadrat3 {
       background-color: rgb(255, 255, 255);
-      width: 740px;
+      width: 100%;
       height: 50px;
       border-radius: 20px;
       position: absolute;
@@ -238,4 +251,138 @@ a:hover {
       position: relative;
       z-index: 0; 
     }
+    .container1{
+      width: 100%;
+    
+     margin: 100px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+    }
+    .card1 {
+      width: 311px;
+      height: 182px;
+      
+display: flex;
+margin: 10px;
+flex-direction: column;
+align-items: center;
+padding: 10px 0px;
+gap: 10px;
+position: relative;
+left: -8%;
+top: -35px;
+background: #333333;
+border-radius: 10px;
+          }
+
+          
+.logo1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+width: 40px;
+height: 40px;
+background: #FAFAFA;
+border-radius: 40px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Button {
+  width: 254px;
+height: 76px;
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-top: 200px;
+color: #FAFAFA;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.Analiz {
+  width: 250px;
+  height: 19px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  top: 160px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+
+  .cifra {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    top: 20%;
+    color: #020000;
+
+  }
+.Progres {   
+  position: absolute;
+  top:125%; 
+  left: 4%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+ color: #000000;
+}
+
+.object {
+  position: relative; 
+  z-index: 0; 
+}
+
+.CTPATEGIA {
+  background-color: #00CA69;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px;
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CTPATEGIATEXT {   
+  position: absolute;
+  top:180%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+ color: #ffffff;
+}
+
+.object {
+  position: relative; 
+  z-index: 0; 
+}
+.text {
+  position: absolute;
+width: 1006px;
+height: 48px;
+left: 52px;
+top: 106px;
+}
+
+
+
+
 
