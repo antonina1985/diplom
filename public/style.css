@@ -340,4 +340,53 @@ h4 {
   background-color: #a93dff;
 }
 
+.containertarifv {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 25%;
+}
+
+.tariftext {
+  width: 22%;
+  padding: 10px;
+  border-bottom: 1px solid #333333;
+}
+.tariftext .BodyM {
+  align-items: center;
+  color: #333333;
+  text-align: center;
+}
+.tariftext .noBorder {
+  bottom: none;
+}
+
+.title1 {
+  text-align: center;
+  background-color: #00ca69;
+  padding: 10px 0;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 15px;
+}
+
+.btn {
+  width: 21%;
+  background-color: #ff5c16;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+.btn .h4 {
+  text-align: center;
+}
+
+.containertarif1 {
+  position: relative;
+  height: 244px;
+  left: 310px;
+  top: -224px;
+}
+
 /*# sourceMappingURL=style.css.map */
